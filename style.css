@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'segoe UI',sans-serif;
+    background: color #0001;
+    color: white;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10px;
+    background-color: #121212;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+}
+/*burger */
+.burger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+;.burger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s;
+}
+/*navigation*/
+.nav {
+    display: flex;
+    gap:30px;
+    list-style: none;
+}
+.logo {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav {
+    padding-left: 0px;
+}
+.image {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.vidéo {
+    height: 250px;
+    width: 500px;
+    border-radius: 10%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'segoe UI',sans-serif;
+    background: color #0001;
+    color: white;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10px;
+    background-color: #121212;
+}
+
+.burger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+}
+
+.nav {
+  display: none;
+  flex-direction: column;
+  background: #222;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nav.active {
+  display: flex;
+}
+
+@media(min-width: 768px) {
+  .burger {
+    display: none;
+  }
+  .nav {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    background: none;
+  }
+}
+.body1 {
+    background-color: black;
+}
+.body2 {
+    background-color: black;
+}
+.body3 {
+    background-color: black;
+}
+.header1 {
+    color: white;
+}
+.services {
+    color: white;
+    padding-left: 25px;
+}
+.competences {
+    color: white;
+    padding-left: 25px;
+}
+.a propos {
+    color: white;
+}
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.burger span {
+  height: 3px;
+  width: 100%;
+  background: white;
+  border-radius: 2px;
+}
+.contact {
+    padding-left:25px;
+}
